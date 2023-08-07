@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="calc.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Informe 2 numeros para calcular</h1>
+        <input type="number" name="txtn1" id="txtn1">
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value=" + " onclick="somar()"> <!--O evento onclick executa determinada funcionalidade quando um botão é clicado, -->
+        <input type="button" value=" - " onclick="subtrair()"><!--coloca a função em JavaScript que você quer executar dentro da tag de abertura do botão.-->
+        <input type="button" value=" * " onclick="multiplicar()">
+        <input type="button" value=" / " onclick="dividir()">
+        <input type="button" value=" LIMPAR " onclick="limpar()">
+        
+        <div id="resposta">
+            resposta
+        </div>
+    </div>
+</body>
+</html>
